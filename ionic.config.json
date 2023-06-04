@@ -1,0 +1,7 @@
+{
+  "name": "student-table-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

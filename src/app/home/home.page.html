@@ -1,0 +1,41 @@
+<ion-header  [translucent]="true">
+  <ion-toolbar color="primary" class="ion-justify-content-center">
+    <ion-row>
+
+
+      <ion-title>
+        Students-List
+      </ion-title>
+        <ion-button  class="ion-margin" size="md" color="light" (click) ="openModal()">Add Employee</ion-button>
+    </ion-row>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <!-- Theme classes dark, material, bootstrap -->
+    <ngx-datatable [scrollbarH]="true" class="material"
+    [limit]="8"
+    [rows]="rows"
+    [rowHeight]="50"
+    [columns]="columns"
+    [columnMode]="'force'"
+    [sortType]="'multi'"
+    [headerHeight]="50"
+    [footerHeight]="50" class="material" [rows]="data" [columns]="columns">
+      <ngx-datatable-column *ngFor="let column of columns" [name]="column.prop"></ngx-datatable-column>
+      <ngx-datatable-column [name]="actions">
+        <ng-template ngx-datatable-cell-template let-row="row">
+          <ion-button (click)="editStudent(row)" color="danger">
+            <ion-icon size="sm" name="create" ></ion-icon>
+          </ion-button>
+          <ion-button (click)="deleteStudent(row.id)">
+            <ion-icon size="sm" name="trash"></ion-icon>
+          </ion-button>
+
+        </ng-template>
+      </ngx-datatable-column>
+
+    </ngx-datatable>
+  </div>
+</ion-content>

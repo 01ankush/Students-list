@@ -1,0 +1,102 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "students": [
+    {
+      "name": "rahul",
+      "roll": "734",
+      "course": "hm",
+      "branch": "food",
+      "mobile": "6724764",
+      "email": "@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "dafjkdsd",
+      "roll": "adsfjask",
+      "course": "hdfa",
+      "branch": "uytayudf",
+      "mobile": "aksudyfk",
+      "email": "hsdgfu",
+      "id": 6
+    },
+    {
+      "name": "ajdf",
+      "roll": "jadfa",
+      "course": "jasdhfal",
+      "branch": "ajdsfh",
+      "mobile": "ajdfhka",
+      "email": "audfsh",
+      "id": 7
+    },
+    {
+      "name": "ankush",
+      "roll": "2",
+      "email": "ankush@gmail.com",
+      "mobile": "9828938232",
+      "course": "B.TEch",
+      "branch": "cCS",
+      "id": 8
+    },
+    {
+      "name": "hdafkjh",
+      "roll": "7263475",
+      "email": "sdhf@gmail.com",
+      "mobile": "348",
+      "course": "asdfgasjd",
+      "branch": "dsfagsdh",
+      "id": 9
+    },
+    {
+      "name": "radha",
+      "roll": "23",
+      "email": "radha@gmail.com",
+      "mobile": "6524863861",
+      "course": "B.TEch",
+      "branch": "m.e",
+      "id": 10
+    },
+    {
+      "name": "hahksf",
+      "roll": "23",
+      "email": "d@gmail.com",
+      "mobile": "23",
+      "course": "jadf",
+      "branch": "jfaksdf",
+      "id": 11
+    },
+    {
+      "name": "fadfa",
+      "roll": "22d",
+      "email": "sdd@gmail.com",
+      "mobile": "232",
+      "course": "fadsf",
+      "branch": "dfasdf",
+      "id": 12
+    },
+    {
+      "name": "hkjasdbf",
+      "roll": "212",
+      "email": "asdh@gmail.com",
+      "mobile": "463",
+      "course": "B.",
+      "branch": "fasdjk",
+      "id": 13
+    }
+  ]
+}
